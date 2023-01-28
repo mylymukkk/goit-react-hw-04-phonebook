@@ -15,6 +15,9 @@ export const ContactListItem = ({ contact, onClick }) => {
 };
 
 ContactListItem.propTypes = {
-  name: PropTypes.string,
-  number: PropTypes.string,
+  contact: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    number: PropTypes.string.isRequired,
+  }),
+  onClick: PropTypes.func.isRequired,
 };
