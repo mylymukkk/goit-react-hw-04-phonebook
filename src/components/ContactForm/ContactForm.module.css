@@ -1,0 +1,47 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.inputLabel {
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.input {
+  padding: 0 10px;
+  margin-bottom: 15px;
+
+  line-height: 30px;
+  font-size: 13px;
+
+  background-color: antiquewhite;
+
+  border-radius: 8px;
+  border: none;
+}
+
+.input::placeholder {
+  font-size: 13px;
+  color: rgb(153, 153, 153);
+}
+
+.formBtn {
+  margin: 0 0 0 auto;
+  padding: 6px 0;
+  width: 90px;
+  text-align: center;
+  font-size: 11px;
+
+  background-color: rgb(233, 232, 232);
+
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.formBtn:hover,
+.formBtn:focus {
+  background-color: rgb(224, 223, 223);
+}

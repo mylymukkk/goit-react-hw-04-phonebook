@@ -1,0 +1,28 @@
+.item {
+  font-size: 13px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.phoneNumber {
+  font-weight: 700;
+  color: rgb(59, 59, 59);
+}
+
+.deleteBtn {
+  margin-right: 10px;
+  font-size: 10px;
+
+  background-color: antiquewhite;
+  color: rgb(59, 59, 59);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.deleteBtn:hover,
+.deleteBtn:focus {
+  background-color: rgb(253, 231, 203);
+}
